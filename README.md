@@ -15,8 +15,8 @@ See the license file and License Folder for details
 - WebAssembly build powered by emscription SDK (https://emscripten.org/docs/introducing_emscripten/emscripten_license.html)
 
 ## Known Issues
-WebAssembly single-threaded is not brilliant regarding performance, especially on android. 
+WebAssembly single-threaded is not brilliant regarding performance, especially on android / chrome. Firefox is the best and can be configured to allow some space for game play. Unfortunately there is no full screen mode in the browser.
 The timer is blocked for a short while on every user interaction.
-I have reduce a large number of console logs to get an acceptable flow on Windows Desktop.
+I have reduced a large number of console logs to get an acceptable flow. Logging really is a performance killer in WASM.
 
 NOTE - The keyboard context only works when you click on one of the control buttons first. This is not a problem for desktop builds !
